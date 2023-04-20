@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mridul Gulati-Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="home" class="SectionShow">
+      <div id="head">
+        <h1><a href="index.html">Mridul Gulati</a></h1>
+        <h2>
+          I'm a passionate
+          <span>Full Stack Web Developer</span>
+        </h2>
+        <li>
+          <a id="homelink" href="index.html" class="active">Home</a>
+        </li>
+        <li><a href="#nav" onclick="myAbout()">About</a></li>
+        <li><a href="#nav" onclick="myResume()">Resume</a></li>
+        <li>
+          <a href="#nav" onclick="myCertifications()">Certifications</a>
+        </li>
+        <li><a href="#nav" onclick="myProjects()">Projects</a></li>
+        <li><a href="#nav" onclick="myContact()">Contact</a></li>
+      </div>
+      <div id="social">
+        <a href="https://github.com/Mridul-Gulati"
+          ><i class="fa fa-github" id="i1"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/mridul-gulati-286994223/"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="mailto:mridulgulati18@gmail.com"
+          ><i class="fa fa-envelope"></i
+        ></a>
+      </div>
+    </section>
+
+    <header id="nav" class="SectionHide">
+      <h1>Mridul Gulati</h1>
+
+      <ul>
+        <li><a href="#home" onclick="myHome()">Home</a></li>
+        <li>
+          <a id="aboutlink" href="#nav" onclick="myAbout()">About</a>
+        </li>
+        <li><a id="resumelink" href="#nav" onclick="myResume()">Resume</a></li>
+        <li>
+          <a id="certificationlink" href="#nav" onclick="myCertifications()"
+            >Certifications</a
+          >
+        </li>
+        <li>
+          <a id="projectlink" href="#nav" onclick="myProjects()">Projects</a>
+        </li>
+        <li>
+          <a id="contactlink" href="#nav" onclick="myContact()">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <section id="about" class="SectionHide">
+      <div id="container" class="container">
+        <div class="sectionHeading">
+          <p>ABOUT</p>
+          <h2>LEARN MORE ABOUT ME</h2>
+          <hr class="long" />
+        </div>
+        <div>
+          <h3
+            style="
+              color: rgb(217, 217, 2);
+              margin-top: 5px;
+              font-size: 20px;
+              font-weight: 700;
+            "
+          >
+            Junior Placement Coordinator at Career and Development Cell, MAIT<br /><br />
+            Co-Author of the research paper: "A Novel Approach for Automatic
+            Avalanche Detection System"
+          </h3>
+        </div>
+        <br />
+        <div id="aboutContent" class="row">
+          <div style="flex: 0 0 24%; max-width: 24%">
+            <img src="./images/mypic.png" />
+          </div>
+          <div class="align">
+            <h3
+              style="
+                color: rgb(217, 217, 2);
+                margin-top: 5px;
+                font-size: 20px;
+                font-weight: 700;
+                padding: 0 25px;
+              "
+            >
+              Hello! I am Mridul
+            </h3>
+            <p style="padding: 0 25px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              neque minus, laboriosam dolorem architecto facere omnis laudantium
+              ullam, sint impedit molestias? Amet vel deserunt iste totam optio
+              porro aliquid consequatur.
+            </p>
+            <ul>
+              <li style="margin-right: 220px">
+                <i class="fas fa-chevron-right"></i>
+                <strong>Birthday:</strong> 18-Nov-2003
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <strong>City:</strong> New Delhi
+              </li>
+              <li style="margin-right: 70px">
+                <i class="fas fa-chevron-right"></i>
+                <strong>Degree:</strong> Computer Science and Engineering
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <strong>Email:</strong> mridulgulati18@gmail.com
+              </li>
+            </ul>
+            <br />
+            <p style="padding: 0 25px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              soluta eligendi aliquam vitae fugiat. Eos qui aperiam vel expedita
+              facere. Recusandae earum deserunt minima error nam sint. Sunt quam
+              soluta optio error magnam at. Ipsum earum, eligendi illo
+              consequatur eos deserunt vero qui error dolores, nostrum
+              repudiandae. Possimus beatae libero modi! Provident voluptas sit
+              fuga praesentium cumque! Laudantium suscipit ab minus ex soluta,
+              praesentium consequuntur cumque eligendi veniam pariatur provident
+              commodi, non debitis exercitationem iste neque. Odio sunt debitis
+              architecto ratione esse mollitia accusantium blanditiis, soluta
+              nulla atque laudantium dolorum, similique qui ipsum, culpa
+              corrupti dolorem cum illum. Molestias magni eaque deleniti amet
+              dolores eligendi et blanditiis, expedita temporibus id recusandae
+              maxime dicta corporis. Labore excepturi ipsam dolore, ut,
+              perferendis, explicabo quaerat officia et soluta magni quam odio
+              aperiam veritatis magnam ipsa. Voluptatum eveniet nobis, modi
+              quaerat quas eaque? Unde quibusdam voluptate, eos magnam tota
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="SectionHide">
+      <div id="container" class="container">
+        <div class="sectionHeading">
+          <p>RESUME</p>
+          <h2>Checkout My Resume</h2>
+          <a href="./MRIDUL's Resume.pdf" download="" target="_blank">
+            <button><i class="fa fa-download" style="margin-right:5px"></i> Download my resume</button>
+            </a>
+          <hr class="long" />
+        </div>
+        <div>
+          <img src="./images/Resume.png"/>
+        </div>
+    </section>
+
+    <section id="Certifications" class="SectionHide">
+      <div id="container" class="container">
+        <div class="sectionHeading">
+          <p>CERTIFICATIONS</p>
+          <h2>MY CERTIFICATES</h2>
+          <hr class="long" />
+        </div>
+        <div>
+          <h3
+            style="
+              color: rgb(217, 217, 2);
+              margin-top: 5px;
+              font-size: 20px;
+              font-weight: 700;
+            "
+          >
+            COMING SOON!! UPDATES SOON...
+        </div>
+    </section>
+
+    <section id="projects" class="SectionHide">
+      <div id="container" class="container">
+        <div class="sectionHeading">
+          <p>PROJECTS</p>
+          <h2>MY PROJECTS</h2>
+          <hr class="long" />
+        </div>
+        <div>
+          <h3
+            style="
+              color: rgb(217, 217, 2);
+              margin-top: 5px;
+              font-size: 20px;
+              font-weight: 700;
+            "
+          >
+          COMING SOON!! UPDATES SOON...
+          </h3>
+        </div>
+    </section>
+
+    <section id="Contact" class="SectionHide">
+      <div id="container" class="container">
+        <div class="sectionHeading">
+          <p>CONTACT</p>
+          <h2>CONTACT ME</h2>
+          <hr class="long" />
+        </div>
+        <div class="row">
+
+          <div class="col d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="fa fa-map"></i>
+              <h3>My Address</h3>
+              <p> New Delhi, India</p>
+            </div>
+          </div>
+  
+          <div class="col d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="fa fa-share"></i>
+              <h3>Social Profiles</h3>
+              <div class="social-links">
+         
+                 <a href="https://github.com/Mridul-Gulati" target="_blank" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/mridul-gulati-286994223/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="mailto:mridulgulati18@gmail.com" target="_blank" class="fa fa-envelope"></a>
+        </div>
+            </div>
+          </div>
+  
+          <div class="col d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="fa fa-envelope"></i>
+              <h3>Email Me</h3>
+              <p>mridulgulati18@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <hr class="long">
+        <form action="https://getform.io/f/177b98da-2f67-4978-a953-691346d2d36f" method="POST" role="form" class="php-email-form mt-4">
+          <div class="form-row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" style="height: 129px;"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+    </section>
+
+    <section id="credits">
+      <p id="des" class="footer">
+        Designed by
+        <a href="#About">Mridul</a>
+      </p>
+    </section>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9f58c66ab1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
